@@ -43,8 +43,8 @@ class Convert extends Command
         $this->source = $this->argument('source') ?? $this->source;
         $this->dest = $this->argument('dest') ?? $this->source;
 
-        $this->sourceDir = config('converter.' . $this->mode . '.importPath') . '/' . $this->source;
-        $this->destDir = config('converter.' . $this->mode . '.exportPath') . '/' . $this->dest;
+        $this->sourceDir = config('converter.' . $this->mode . '.inputPath') . '/' . $this->source;
+        $this->destDir = config('converter.' . $this->mode . '.outputPath') . '/' . $this->dest;
 
         $this->patterns = config('converter.' . $this->mode . '.replacePairs.patterns');
         $this->replacements = config('converter.' . $this->mode . '.replacePairs.replacements');
