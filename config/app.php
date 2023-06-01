@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'PlaylistConverter'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,9 +55,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    // 'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL'),
+    // 'asset_url' => env('ASSET_URL'),
 
     /*
     |--------------------------------------------------------------------------
@@ -122,9 +122,9 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    // 'key' => env('APP_KEY'),
 
-    'cipher' => 'AES-256-CBC',
+    // 'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
@@ -139,10 +139,10 @@ return [
     |
     */
 
-    'maintenance' => [
-        'driver' => 'file',
-        // 'store'  => 'redis',
-    ],
+    // 'maintenance' => [
+    //     'driver' => 'file',
+    //     // 'store'  => 'redis',
+    // ],
 
     /*
     |--------------------------------------------------------------------------
